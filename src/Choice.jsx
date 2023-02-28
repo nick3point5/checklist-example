@@ -3,7 +3,7 @@ export function Choice(props) {
 
 	return <div>
 		<label>{choice}</label>
-		<input type="checkbox" name={`choice:${choiceId}`} id="" />
+		<input type="checkbox" name={`choice:${choiceId}`} />
 		{displayTextbox && <input/>}
 	</div>
 }

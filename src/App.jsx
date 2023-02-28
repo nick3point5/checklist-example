@@ -12,8 +12,6 @@ function App() {
 	const choices = query.choices
 	const bold = query.question.questionInstructionTitle
 
-	console.log(bold)
-
   return (
     <div className="App">
 			<p>{bold}</p>
